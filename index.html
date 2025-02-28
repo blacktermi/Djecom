@@ -17,6 +17,7 @@
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300,700' rel='stylesheet' type='text/css'>
   <link href="http://fonts.googleapis.com/css?family=Crimson+Text:400,600" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <!-- Bootstrap CSS Style -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -70,82 +71,115 @@
   </div>
 
   <!-- Navbar -->
-  <header class="header">
-    <nav class="navbar navbar-default navbar-static-top">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-nav">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand spacel" href="#"><img src="assets/images/logo.png" alt=""></a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navigation-nav">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a class="section-scroll" href="#wrapper">Accueil</a></li>
-            <li><a href="#landing-offer">A propos</a></li>
-            <li><a href="#features-section">Services</a></li>
-            <!--<li><a href="#screenshots-section">Travaux</a></li>-->
-            <!--<li><a href="#prices-section">Abonnement</a></li>-->
-            <li><a href="#contact-section">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
+  <header class="header" style="font-family: 'Montserrat', sans-serif;">
+    <nav class="navbar navbar-default navbar-static-top" style="font-weight: 600; font-size: 16px; padding: 15px 0;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand spacel" href="#" style="font-size: 20px; padding-top: 5px; display: flex; align-items: center;">
+                    <img src="assets/images/logo.png" alt="Djecom Logo" style="height: 45px; margin-right: 10px;">
+                </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navigation-nav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="section-scroll" href="#wrapper" style="font-family: 'Inter', sans-serif; color: #222; text-transform: uppercase;">Accueil</a></li>
+                    <li><a href="#landing-offer" style="font-family: 'Inter', sans-serif; color: #222; text-transform: uppercase;">À propos</a></li>
+                    <li><a href="#features-section" style="font-family: 'Inter', sans-serif; color: #222; text-transform: uppercase;">Services</a></li>
+                    <!--<li><a href="#screenshots-section">Travaux</a></li>-->
+                    <!--<li><a href="#prices-section">Abonnement</a></li>-->
+                    <li><a href="#contact-section" style="font-family: 'Inter', sans-serif; color: #ff6600; text-transform: uppercase;">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container -->
     </nav>
-  </header>
+</header>
   <!-- End Navbar -->
 
   <div id="wrapper">
 
     <!-- Hero
   ================================================== -->
-    <section>
-      <div id="hero-section" class="landing-hero" data-stellar-background-ratio="0">
+  <section>
+    <div id="hero-section" class="landing-hero" data-stellar-background-ratio="0">
         <div class="hero-content">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2 text-center">
 
-                <div class="hero-text">
-                  <div class="herolider">
-                    <ul class="caption-slides">
+                        <div class="hero-text">
+                            <div class="herolider">
+                                <ul class="caption-slides">
 
-                      <li class="caption">
-                        <h1>Un héritage de qualité</h1>
-                        <div class="div-line"></div>
-                        <p class="hero">Image de marque, Photographie &amp; vidéographie</p>
-                      </li>
+                                    <li class="caption">
+                                        <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 36px; line-height: 1.3; color: #ffffff;">
+                                            Boostez votre présence en ligne avec du contenu percutant !
+                                        </h1>
+                                        <div class="div-line"></div>
+                                        <p class="hero" style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 18px; color: #ffffff;">
+                                            Création. Visibilité. Impact.
+                                        </p>
+                                    </li>
 
-                      <li class="caption">
-                        <h1>MODÈLES RESPONSIVES</h1>
-                        <div class="div-line"></div>
-                        <p class="hero">Design &amp; Développement</p>
-                      </li>
+                                    <li class="caption">
+                                        <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 36px; line-height: 1.3; color: #ffffff;">
+                                            Transformons votre vision en une marque puissante
+                                        </h1>
+                                        <div class="div-line"></div>
+                                        <p class="hero" style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 18px; color: #ffffff;">
+                                            Stratégie. Identité. Influence.
+                                        </p>
+                                    </li>
 
-                      <li class="caption">
-                        <h1>PRODUCTION VIDEO DE HAUTE QUALITÉ</h1>
-                        <div class="div-line"></div>
-                        <p class="hero">Editions &amp; Montages</p>
-                      </li>
+                                    <li class="caption">
+                                        <h1 style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 36px; line-height: 1.3; color: #ffffff;">
+                                            Stratégie, contenu, performance – L’agence digitale qu’il vous faut
+                                        </h1>
+                                        <div class="div-line"></div>
+                                        <p class="hero" style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 18px; color: #ffffff;">
+                                            Innovation. Engagement. Résultats.
+                                        </p>
+                                    </li>
 
-                    </ul>
-                  </div> <!-- end herolider -->
-                </div> <!-- end hero-text -->
+                                </ul>
+                            </div> <!-- end herolider -->
+                        </div> <!-- end hero-text -->
 
-                <div class="hero-btn">
-                  <a href="#landing-offer" class="btn btn-clean">En savoir plus</a>
-                </div> <!-- end hero-btn -->
+                        <div class="hero-btn" style="text-align: center; margin-top: 20px;">
+                          <a href="#landing-offer" class="btn btn-clean" 
+                             style="
+                                  font-family: 'Montserrat', sans-serif;
+                                  font-weight: 600;
+                                  font-size: 16px;
+                                  padding: 12px 24px;
+                                  background-color: #ff6600;
+                                  color: #fff;
+                                  border-radius: 8px;
+                                  text-decoration: none;
+                                  display: inline-block;
+                                  transition: all 0.3s ease-in-out;
+                                  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+                                  position: relative;
+                                  overflow: hidden;
+                              " 
+                             onmouseover="this.style.backgroundColor='#e65c00'; this.style.transform='scale(1.05)'; this.style.boxShadow='0px 6px 12px rgba(0, 0, 0, 0.3)';" 
+                             onmouseout="this.style.backgroundColor='#ff6600'; this.style.transform='scale(1)'; this.style.boxShadow='0px 4px 8px rgba(0, 0, 0, 0.2)';">
+                              En savoir plus
+                          </a>
+                      </div>
 
-              </div> <!-- end col-md-6 -->
-            </div> <!-- end row -->
-          </div> <!-- End container -->
+                    </div> <!-- end col-md-6 -->
+                </div> <!-- end row -->
+            </div> <!-- End container -->
         </div> <!-- End hero-content -->
-      </div> <!-- End hero-section -->
-    </section>
+    </div> <!-- End hero-section -->
+</section>
     <!-- End hero section -->
 
     <!-- Offer
@@ -154,71 +188,91 @@
       <div id="landing-offer" class="pad-sec">
         <div class="container">
 
-          <div class="title-section big-title-sec animated out" data-animation="fadeInUp" data-delay="0">
+          <div class="title-section big-title-sec animated fadeInUp" data-animation="fadeInUp" data-delay="0">
             <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <h2 class="big-title">Quelques informations sur nous</h2>
-                <h1 class="big-subtitle">Nous sommes une agence de Markenting digital</h1>
-                <h3 class="qq">Québec,city</h3>
-                <p class="qq">Internationnal </p>
-                </h3>
-                <hr>
-                <p class="about-text">Être présent sur internet joue un rôle majeur dans le développement d'une entreprise, mais par où commencer . DjeCom vous accompagne de A à Z dans vos projets. Nous développerons votre présence en ligne à travers des concepts novateurs.<strong>Osez l'aventure!</strong>
-
-                </p>
-              </div>
+                <div class="col-sm-8 col-sm-offset-2 text-center">
+                    <h2 class="big-title" style="font-family: 'Montserrat', sans-serif; font-weight: 900;">🚀 À PROPOS DE NOUS</h2>
+                    <h1 class="big-subtitle" style="font-family: 'Poppins', sans-serif; font-weight: 700;">L’agence qui transforme votre présence digitale</h1>
+                    <h3 class="qq" style="font-family: 'Inter', sans-serif; font-weight: 500; font-size: 18px; line-height: 1.6; color: #333;">
+                      📍 Basée à Québec, nous accompagnons les entreprises et entrepreneurs dans leur stratégie digitale en combinant 
+                      <span style="font-weight: 700; color: #ff6600;">créativité</span> et 
+                      <span style="font-weight: 700; color: #ff6600;">performance</span>.
+                  </h3>
+                    <hr>
+        
+                    <p class="about-text" style="font-size: 16px; line-height: 1.8;">
+                        💡 <strong>Djecom</strong>, c’est une équipe passionnée spécialisée en :
+                        <br>✅ <strong>Gestion des réseaux sociaux</strong> – Développez une communauté engagée
+                        <br>✅ <strong>Création de contenu professionnel</strong> – Photos, vidéos et visuels percutants
+                        <br>✅ <strong>Montage vidéo & narration digitale</strong> – Attirez et fidélisez votre audience
+                        
+                        <br><br>🔹 <span style="color: #555;">De la stratégie à la mise en œuvre, nous vous aidons à vous démarquer avec des concepts innovants et percutants.</span>
+                        
+                        <br><br><strong>
+                            <a target="_blank" href="contact.html" style="text-decoration: none; font-weight: 700; color: #ff6600;">
+                                🔗 Prêt à booster votre visibilité ?
+                            </a>
+                        </strong>
+                    </p>
+                </div>
             </div> <!-- End row -->
-          </div> <!-- end title-section -->
+        </div> <!-- End title-section -->
 
-          <div class="offer-boxes">
-
-            <div class="row" id="features-section">
+        <div class="offer-boxes">
+          <div class="row" id="features-section">
+              <!-- Service 1 : Gestion des Réseaux Sociaux -->
               <div class="col-sm-4">
-                <div class="offer-post text-center animated out" data-animation="fadeInLeft" data-delay="0">
-                  <div class="offer-icon">
-                    <span class="icon-desktop"></span>
-                  </div>
-                  <h4>Marketing Digital</h4>
-                  <p>DJECOM est une agence marketing spécialisée en création de contenu et gestion de média sociaux pour les PME,elle a pour but de développer leur présence en ligne à travers des concepts originaux.</p>
-                </div> <!-- End offer-post -->
+                  <div class="offer-post text-center animated out" data-animation="fadeInLeft" data-delay="0">
+                      <div class="offer-icon">
+                        <i class="fa-solid fa-share-nodes" style="font-size: 40px; color: #ff6600;"></i>
+                      </div>
+                      <h4>Gestion des Réseaux Sociaux</h4>
+                      <p>
+                          Nous créons et gérons votre présence sur Instagram, Facebook, TikTok et LinkedIn avec 
+                          une stratégie de contenu engageante, des posts percutants et des campagnes publicitaires 
+                          performantes.
+                      </p>
+                  </div> <!-- End offer-post -->
               </div> <!-- End col-sm-4 -->
-
+      
+              <!-- Service 2 : Création de Contenu & Photographie -->
               <div class="col-sm-4">
-                <div class="offer-post text-center animated out" data-animation="fadeInUp" data-delay="0">
-                  <div class="offer-icon">
-                    <span class="icon-piechart"></span>
-                  </div>
-                  <h4>Des forfaits personnalisés selon vos besoins.</h4>
-                  <p> Nous offrons des services de tous genres avec différents forfaits.
-                      Si vous êtes satisfait du résultat après 6 mois vous pourrez par 
-                      conséquent décider de renouveler le contrat.<p>
-                </div> <!-- End offer-post -->
+                  <div class="offer-post text-center animated out" data-animation="fadeInUp" data-delay="0">
+                      <div class="offer-icon">
+                          <i class="fa-solid fa-camera" style="font-size: 40px; color: #ff6600;"></i>
+                      </div>
+                      <h4>Création de Contenu pour les Réseaux Sociaux</h4>
+                      <p>
+                        Nous produisons du contenu visuel adapté aux plateformes sociales : 
+                        images, stories et formats engageants pour booster votre interaction et visibilité.
+                      </p>
+                  </div> <!-- End offer-post -->
               </div> <!-- End col-sm-4 -->
-
+      
+              <!-- Service 3 : Production & Montage Vidéo -->
               <div class="col-sm-4">
-                <div class="offer-post text-center animated out" data-animation="fadeInRight" data-delay="0">
-                  <div class="offer-icon">
-                    <span class="icon-lifesaver"></span>
-                  </div>
-                  <h4>Production vidéo pour réseaux sociaux</h4>
-                  <p>
-                    Création de contenu professionnel et créative. Nous produisons des vidéos,
-                    photos lifestyles, web séries, publicités, vidéos de présentation, vidéos de
-                    style Stories, Réels.</p>
-                </div> <!-- End offer-post -->
+                  <div class="offer-post text-center animated out" data-animation="fadeInRight" data-delay="0">
+                      <div class="offer-icon">
+                          <i class="fa-solid fa-video" style="font-size: 40px; color: #ff6600;"></i>
+                      </div>
+                      <h4>Production & Montage Vidéo</h4>
+                      <p>
+                          Boostez votre visibilité avec des vidéos percutantes ! Nous réalisons des vidéos YouTube, 
+                          TikTok, Reels et publicités avec un montage dynamique, du storytelling et des effets modernes.
+                      </p>
+                  </div> <!-- End offer-post -->
               </div> <!-- End col-sm-4 -->
-
-            </div> <!-- End row -->
-
-          </div> <!-- End offer-boxes -->
-        </div> <!-- End container -->
+      
+          </div> <!-- End row -->
+      </div> <!-- End offer-boxes -->
+      </div> <!-- End container -->
       </div> <!-- End landing-offer-section -->
-    </section>
-    <!-- End offer section -->
-
-    <section>
-      <div class="sep-section"></div>
-    </section>
+      </section>
+      <!-- End offer section -->
+      
+      <section>
+          <div class="sep-section"></div>
+      </section>
 
     <!-- Features services
     ================================================== -->
@@ -227,23 +281,31 @@
     <!-- Video section
     ================================================== -->
     <section>
-      <div id="video-section" data-stellar-background-ratio="0">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 col-sm-offset-3">
-              <div style="padding:56.25% 0 0 0;position:relative;"><iframe
-                  src="https://player.vimeo.com/video/702336622?h=640a6c365e&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                  frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                  style="position:absolute;top:0;left:0;width:100%;height:100%;" title="IMG_2732"></iframe></div>
-              <script src="https://player.vimeo.com/api/player.js"></script>
-                <div class="video-head">Vidéo d'introduction</div>
-                <div class="video-sub-heading">Découvrez notre vidéo de présentation</div>
-              </div>
-            </div> <!-- end col-sm-6 -->
-          </div> <!-- end row -->
-        </div> <!-- end container -->
+      <div id="services-intro" data-stellar-background-ratio="0" style="background-color: #ff6600; padding: 60px 0; text-align: center; color: white;">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                      <h2 style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 32px; color: #ffffff;">
+                          🚀 Nous créons des solutions digitales sur-mesure pour vous
+                      </h2>
+                      <p style="font-family: 'Inter', sans-serif; font-size: 18px; line-height: 1.6; margin-bottom: 30px;">
+                          Chez <strong>Djecom</strong>, nous mettons notre créativité et notre expertise au service de votre marque. 🎯<br>
+                          Que ce soit pour dynamiser vos réseaux sociaux, créer du contenu impactant ou produire des vidéos engageantes, 
+                          <strong>nous transformons votre vision en succès digital.</strong>
+                      </p>
+  
+                      
+  
+                      <div style="margin-top: 30px;">
+                          <a target="_blank" href="contact.html" class="btn btn-light" style="font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 16px; padding: 12px 24px; background-color: white; color: #ff6600; border-radius: 8px; text-decoration: none; transition: 0.3s;">
+                              📞 Discutons de votre projet !
+                          </a>
+                      </div>
+                  </div>
+              </div> <!-- end row -->
+          </div> <!-- end container -->
       </div>
-    </section>
+  </section>
     <!-- End Video section -->
 
     <section>
@@ -265,63 +327,45 @@
                   <div class="portfolio">
                       <!-- Begin page header-->
                       <div class="page-header-wrapper">
-                          <div class="container">
-                              <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
-                                  <h2>Travaux</h2>
-                                  <div class="devider"></div>
-                                  <p class="subtitle">Ce dont je suis fiers</p>
-                              </div>
-                          </div>
-                      </div>
+                        <div class="container">
+                            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+                                <h2 style="font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 32px; color: #222;">
+                                    🚀 Ils nous font confiance
+                                </h2>
+                                <div class="devider" style="width: 50px; height: 4px; background-color: #ff6600; margin: 10px auto;"></div>
+                                <p class="subtitle" style="font-family: 'Inter', sans-serif; font-size: 18px; line-height: 1.6; color: #555;">
+                                    Nous accompagnons des entreprises et organisations dans leur stratégie digitale en leur offrant 
+                                    des solutions sur mesure. De la gestion des réseaux sociaux à la création de contenu.<br>
+                                    <strong>Nous aidons nos clients à se démarquer et à atteindre leurs objectifs.</strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                       <!-- End page header-->
                       <div class="portfoloi_content_area">
                           <div class="portfolio_content">
                               <div class="row" id="portfolio">
                                   <!--Affiche-->
-                                  <div class="col-xs-12 col-sm-4 websites">
-                                      <div class="portfolio_single_content">
-                                          <img src="assets/images/screenshots/1.jpg" alt="title" />
-                                      </div>
-                                  </div>
-                                  
-                                  <!--Logo-->
-                                  <div class="col-xs-12 col-sm-4 GraphicDesign">
-                                      <div class="portfolio_single_content">
-                                          <img src="assets/images/screenshots/51.jpg" alt="title" />
-                                          <div>
-                                              <a
-                                                  href="https://www.youtube.com/watch?v=10JTex4OSJA">Voir</a>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div class="col-xs-12 col-sm-4 GraphicDesign">
-                                      <div class="portfolio_single_content">
-                                          <img src="assets/images/screenshots/52.jpg" alt="title" />
-                                          <div>
-                                              <a
-                                                  href="https://www.youtube.com/watch?v=PW7dOkkCBqY">Voir</a>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div class="col-xs-12 col-sm-4 GraphicDesign">
-                                      <div class="portfolio_single_content">
-                                          <img src="assets/images/screenshots/53.jpg" alt="title" />
-                                          <div>
-                                              <a
-                                                  href="https://www.youtube.com/watch?v=n-bYQcSAir8">Voir</a>
-                                          </div>
-                                      </div>
-                                  </div>
                                   <div class="col-xs-12 col-sm-4 GraphicDesign">
                                     <div class="portfolio_single_content">
-                                        <img src="assets/images/screenshots/l1.jpg" alt="title" />
+                                        <img src="assets/images/screenshots/P1.png" alt="title" />
                                     </div>
                                 </div>
-                                <div class="col-xs-12 col-sm-4 GraphicDesign">
-                                  <div class="portfolio_single_content">
-                                      <img src="assets/images/screenshots/l2.jpg" alt="title" />
+                                  
+                                  <!--Logo-->
+                                  
+                                  <div class="col-xs-12 col-sm-4 GraphicDesign">
+                                      <div class="portfolio_single_content">
+                                          <img src="assets/images/screenshots/P2.png" alt="title" />
+                                      </div>
                                   </div>
-                              </div>
+                                  <div class="col-xs-12 col-sm-4 GraphicDesign">
+                                      <div class="portfolio_single_content">
+                                          <img src="assets/images/screenshots/P3.png" alt="title" />
+                                      </div>
+                                  </div>
+                                </div>
+                                
 
                               <!--Fin logo-->
                           </div>
@@ -457,43 +501,49 @@
   <!-- Contact-info
     ================================================== -->
   <section id="contact-section">
-    <div class="contact-info">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <a href="#"><i class="pe-7s-map-marker"></i>Quebec,Canada</a>
-          </div> <!-- End col-sm-4 -->
-          <div class="col-sm-4">
-            <a href="tel:+14184901053"><i class="pe-7s-phone"></i>+1 418 490 1053</a>
-          </div>
-          <div class="col-sm-4">
-            <a href="mailto:djecom97@gmail.com"><i class="pe-7s-mail"></i>djecom97@gmail.com</a>
-          </div>
-        </div> <!-- End row -->
-      </div> <!-- End container -->
+    <div class="contact-info" style="font-family: 'Inter', sans-serif; font-size: 18px; color: #222; padding: 30px 0; background-color: #f9f9f9;">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <a href="#" style="text-decoration: none; color: #ff6600; font-weight: 600;">
+                        <i class="pe-7s-map-marker"></i> Quebec, Canada
+                    </a>
+                </div> <!-- End col-sm-4 -->
+                <div class="col-sm-4">
+                    <a href="tel:+14184901053" style="text-decoration: none; color: #ff6600; font-weight: 600;">
+                        <i class="pe-7s-phone"></i> +1 418 490 1053
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="mailto:djecom97@gmail.com" style="text-decoration: none; color: #ff6600; font-weight: 600;">
+                        <i class="pe-7s-mail"></i> djecom97@gmail.com
+                    </a>
+                </div>
+            </div> <!-- End row -->
+        </div> <!-- End container -->
     </div> <!-- End contact-info -->
-  </section>
+</section>
 
-  <!-- Footer
-    ================================================== -->
-  <footer>
-    <div id="footer-section" class="text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
-            <ul class="footer-social-links">
-              <li><a target="blank" href="https://www.facebook.com/Djecom">Facebook</a></li>
-              <li><a target="blank" href="https://www.instagram.com/djecom97/">Instagram</a></li>
-              <li><a target="blank" href="https://tally.so/r/npl18n">Nous contacter</a></li>
-            </ul>
-            <p class="copyright">
-              &copy; 2022 Djecom - Created By <a href="djecom.ca">djecom.ca</a>
-            </p>
-          </div> <!-- End col-sm-8 -->
-        </div> <!-- End row -->
-      </div> <!-- End container -->
+<!-- Footer
+================================================== -->
+<footer>
+    <div id="footer-section" class="text-center" style="background-color: #222; color: white; padding: 40px 0; font-family: 'Inter', sans-serif;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <ul class="footer-social-links" style="list-style: none; padding: 0; display: flex; justify-content: center; gap: 20px;">
+                        <li><a target="blank" href="https://www.facebook.com/profile.php?id=61559298282940" style="color: white; text-decoration: none; font-weight: 600;">Facebook</a></li>
+                        <li><a target="blank" href="https://www.instagram.com/djecom_/" style="color: white; text-decoration: none; font-weight: 600;">Instagram</a></li>
+                        <li><a target="blank" href="contact.html" style="color: white; text-decoration: none; font-weight: 600;">Nous contacter</a></li>
+                    </ul>
+                    <p class="copyright" style="margin-top: 15px; font-size: 16px;">
+                        &copy; 2025 Djecom - Created By <a href="djecom.ca" style="color: #ff6600; text-decoration: none; font-weight: 600;">djecom.ca</a>
+                    </p>
+                </div> <!-- End col-sm-8 -->
+            </div> <!-- End row -->
+        </div> <!-- End container -->
     </div> <!-- End footer-section  -->
-  </footer>
+</footer>
   <!-- End footer -->
 
   </div> <!-- End wrapper -->
